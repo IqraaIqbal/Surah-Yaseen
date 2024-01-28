@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:yaseen/Screens/home_page.dart';
 import 'package:yaseen/Screens/splash_screen.dart';
 import 'package:yaseen/Theme/light_theme.dart';
 
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: lightTheme,
       themeMode: ThemeMode.system,
-      home: const SplashScreen(),
+      home: SplashScreen()
     );
   }
 }
